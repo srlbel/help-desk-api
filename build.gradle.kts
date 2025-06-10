@@ -32,6 +32,7 @@ dependencies {
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testImplementation("org.springframework.security:spring-security-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+	developmentOnly("io.github.cdimascio:dotenv-kotlin:6.4.1")
 }
 
 kotlin {
